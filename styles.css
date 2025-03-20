@@ -227,29 +227,32 @@ hr {
 
 
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 500px) {
 
     .main_container {
-        width: 60%;
+        width: 70%;
     }
 
     .main_container .container1 {
         margin-top: -165px;
         width: 70%;
         padding-top: 112px;
+        display: inline;
 
     }
 
     .fb_logo {
-        padding-left: -250px;
-        margin-left: -100px;
+        padding-left: -270px;
+        margin-left: -120px;
+        width: 150%;
     }
 
     .main_container .container1 h2 {
 
-        font-size: 22px;
-        margin-left: -100px;
-        width: 170%;
+        font-size: 19px;
+        margin-left: -120px;
+        margin-top: 10px;
+        width: 155%;
 
     }
 
@@ -259,12 +262,101 @@ hr {
         margin-left: -370px;
 
 
+
     }
 
     .footer {
         width: 80%;
         margin-left: 50px;
     }
+
+    .main_container .container2 .card1 {
+        background-color: #fff;
+        border: 1px solid white;
+        border-radius: 7px;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, .1), 0px 8px 16px rgba(0, 0, 0, .1);
+        height: 340px;
+        width: 330px;
+        margin-top: 20px;
+        margin-left: -4px;
+
+
+    }
+
+    .main_container .container2 .card1 input {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        padding: 14px 16px;
+        width: 270px;
+        border-radius: 6px;
+        background-color: #fff;
+        border: 1px solid #dddfe2;
+        color: #1d2129;
+        margin-top: 15px;
+        margin-left: 12px;
+    }
+
+    .main_container .container2 .card1 .login {
+        font-family: Helvetica, Arial, sans-serif;
+        font-size: 17px;
+        padding: 14px 16px;
+        width: 308px;
+        color: #fff;
+        cursor: pointer;
+        border-radius: 6px;
+        border-color: #0866ff;
+        background-color: #0866ff;
+    }
+
+    .main_container .container2 .card1 .forgot_password {
+        text-decoration: none;
+        color: #0866ff;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: 500;
+        font-weight: 500;
+        padding-left: 115px;
+        padding-top: 20px;
+        display: flex;
+    }
+
+
+    .main_container .container2 .card1 .line {
+
+        width: 300px;
+        align-items: center;
+        border-bottom: 1px solid #dadde1;
+        display: flex;
+        margin: 20px 16px;
+        text-align: center;
+        margin-top: -3px;
+    }
+
+    .main_container .container2 .card1 .create_account {
+
+        padding: 14px 16px;
+        width: 50%;
+        font-size: 20px;
+        cursor: pointer;
+        border-radius: 6px;
+        border-color: #42b72a;
+        background-color: #42b72a;
+        margin-left: 65px;
+        padding-top: -20px;
+
+    }
+
+
+    .footer {
+
+        font-size: 12px;
+        text-align: left;
+        padding-top: 40px;
+        margin-left: 30px;
+        color: #8a8d91;
+        width: 80%;
+    }
+
 }
 
 .create_account_container {
