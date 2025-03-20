@@ -1,5 +1,6 @@
 body {
     background-color: white;
+    overflow-x: hidden;
 }
 
 .fb_logo {
@@ -228,7 +229,7 @@ hr {
 
 
 @media screen and (max-width: 500px) {
-
+   
     .main_container {
         width: 70%;
     }
@@ -242,15 +243,15 @@ hr {
     }
 
     .fb_logo {
-        padding-left: -270px;
-        margin-left: -120px;
+        padding-left: -290px;
+        margin-left: -130px;
         width: 150%;
     }
 
     .main_container .container1 h2 {
 
-        font-size: 19px;
-        margin-left: -120px;
+        font-size: 18px;
+        margin-left: -130px;
         margin-top: 10px;
         width: 155%;
 
@@ -258,7 +259,7 @@ hr {
 
 
     .main_container .container2 {
-        padding-top: 90px;
+        padding-top: 85px;
         margin-left: -370px;
 
 
@@ -357,7 +358,11 @@ hr {
         width: 80%;
     }
 
+
+
 }
+
+
 
 .create_account_container {
     margin-left: -10px;
